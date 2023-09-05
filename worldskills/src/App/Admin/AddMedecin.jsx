@@ -21,7 +21,7 @@ function AddMedecin() {
         })
     },[])
   return (
-    <div className='container'>
+    <div className='container bg-light rounded-4 p-4 shadow'>
     <h1 className="text-center">Add Medecin</h1><br/>
     {success&&(
             <div className="bg-success text-light p-2 rounded-2">{success}</div>

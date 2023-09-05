@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import login from './login.jpg'
 function Login() {
     const [donne,setdonne]=useState({
         email:"",password:""
@@ -21,7 +21,13 @@ function Login() {
         })
     }
   return (
+    
+
+    
     <div className='container shadow p-4 rounded-2 bg-light'>
+        <div className='row align-items-center'>
+            <div className="col">
+           
         {
             error&&(<div className="bg-danger p-2 text-light rounded-2">
             {error}
@@ -45,6 +51,12 @@ function Login() {
                 <button className='btn btn-primary'>Login</button>
             </form>
         </div>
+         </div>
+         <div className="col">
+            <img src={login} className='w-100' alt="" />
+            </div>
+    </div>
+    
     </div>
   )
 }

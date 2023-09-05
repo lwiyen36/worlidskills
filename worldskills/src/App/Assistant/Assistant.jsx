@@ -13,9 +13,9 @@ function Assistant() {
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                          <a href="/getPatients" class="nav-item nav-link active">Home</a>
-                    <a href="/addpatient" class="nav-item nav-link ">addpatient</a>
-                    <a href="/addoperation" class="nav-item nav-link ">addoperation</a>
-                    <a href="/RechercheConsultation" class="nav-item nav-link ">RechercheConsultation</a>
+                    <a href="/addpatient" class="nav-item nav-link ">add patient</a>
+                    <a href="/addoperation" class="nav-item nav-link ">add operation</a>
+                    <a href="/RechercheConsultation" class="nav-item nav-link ">Rechercher Consultation</a>
                     <a href="/rendezvous" class="nav-item nav-link ">Rendez-Vous</a>
                     <a href="/consultations" class="nav-item nav-link">consultations</a>
                   

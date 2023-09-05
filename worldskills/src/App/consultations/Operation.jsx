@@ -34,7 +34,7 @@ function Operation() {
     }
 
   return (
-    <div className='container'>
+    <div className='container shadow p-4 rounded-2 bg-light'>
         <center><h1>
             Affectation de Operation
         </h1></center>

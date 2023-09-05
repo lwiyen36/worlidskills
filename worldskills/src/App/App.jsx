@@ -21,6 +21,7 @@ import Admin from './Admin/Admin.jsx'
 import Dashboard from './dashboard/dashboard.jsx'
 import AttachedFiles from './infermiere/AttachedFiles.jsx'
 import Logout from './Logout.jsx'
+import AddDepartement from './Admin/AddDepartement.jsx'
 function App() {
   const apiUrl = import.meta.env.VITE_API_BASE_URL
 
@@ -60,6 +61,7 @@ function App() {
         )
       }
           <Route path="/logout" element={<Logout/>} />
+          <Route path="/departements" element={<AddDepartement/>} />
           <Route path="/MesConsultations" element={<MedecinConsultation/>} />
           <Route path="/dashboard" element={<Dashboard/>} />
           <Route path="/AddEmploye" element={<AddEmploye/>} />

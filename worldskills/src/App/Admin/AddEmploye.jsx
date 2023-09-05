@@ -20,7 +20,7 @@ function AddEmploye() {
         })
     }
   return (
-    <div className='container'>
+    <div className='container bg-light rounded-4 p-4 shadow'>
         <h1 className="text-center">Add Employees</h1><br/>
         {
             success&&(

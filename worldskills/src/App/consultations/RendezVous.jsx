@@ -25,7 +25,7 @@ function RendezVous() {
         })
     }
   return (
-    <div className='container'>
+    <div className='container shadow p-4 rounded-2 bg-light'>
          <center><h1>Rendez-Vous Pour Un Patient</h1></center>
          <form onSubmit={(e)=>{
             e.preventDefault()

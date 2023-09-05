@@ -152,4 +152,14 @@ class AssistantController extends Controller
             $patient->save();
          return response()->json(["Message"=>"Modifier Par success"]);
     }
+    public function addDepartement(Request $request){
+        Departement::create([
+            'NomDepartement'=>$request->Nom
+        ]);
+        return response()->json(["Message"=>"Ajouter Par success"]);
+    }
+    public function getDepartements(){
+        $departements=Departement::all();
+        return response()->json(["departements"=>$departements]);
+    }
 }

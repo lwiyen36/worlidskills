@@ -27,7 +27,7 @@ function RechercheConsultation() {
         })
     }
   return (
-    <div className='container'>
+    <div className='container shadow p-4 rounded-2 bg-light'>
         <h1 className="text-center">Recherche de consultations</h1><br/>
         <form onSubmit={(e)=>{
             e.preventDefault()

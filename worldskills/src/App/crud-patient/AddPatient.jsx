@@ -24,7 +24,7 @@ function AddPatient() {
     })
 }
   return (
-    <div className='container'>
+    <div className='container shadow p-4 rounded-2 bg-light'>
         <h1>Ajouter Patient</h1><br/>
         <form onSubmit={(e)=>{
                 e.preventDefault()
@@ -74,7 +74,7 @@ function AddPatient() {
     )
 }
 </select>
-            
+            <br />
             <button  className='btn btn-primary'>
                 Ajouter
             </button>

@@ -25,7 +25,7 @@ function Patients() {
   return (
     <div className='container'>
         <center><h1>Gestion des Patients</h1></center>
-        <table className='table table-primary table-hover'>
+        <table className='table table-light table-hover table-striped'>
             <thead>
               <tr>
                 <th>CIN</th>

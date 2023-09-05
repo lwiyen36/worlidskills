@@ -42,3 +42,5 @@ Route::get("/DashPatients", [DashboardController::class, 'getPatients']);
 Route::get("/PatientDeJour", [DashboardController::class, 'PatientDeJour']);
 Route::post("/AddFiles", [DashboardController::class, 'AddFiles']);
 Route::post("/logout", [AuthentificationController::class, 'logout']);
+Route::post("/addDepartement", [AssistantController::class, 'addDepartement']);
+Route::get("/getDepartements", [AssistantController::class, 'getDepartements']);

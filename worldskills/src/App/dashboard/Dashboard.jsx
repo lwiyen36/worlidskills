@@ -124,7 +124,7 @@ return (
           </div>
           </div> 
           
-        <div className="container-fluid bg-light">
+        <div className="container bg-light shadow rounded-4 p-2">
                 <h1 className='text-center text-secondary w-100'>Statistiques</h1>
               <br />
               <div className="row">

@@ -15,6 +15,7 @@ function Admin() {
             <a href="/addEmploye" class="nav-item nav-link">add Employe</a>
             <a href="/AddMedecin" class="nav-item nav-link">Add Medecin</a>
             <a href="/AddInfermiere" class="nav-item nav-link">Add Infermiere</a>
+            <a href="/departements" class="nav-item nav-link">Add departements</a>
                 </div>
                 <a href="/logout" class="nav-item nav-link bg-danger text-light p-2 rounded-4 text-center">Logout</a>
             
